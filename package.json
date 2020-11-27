@@ -1,0 +1,44 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon --exec \"npm test\""
+  },
+  "comments": {
+    "//": [
+      "Place comments here"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbjasmine786/https-github.com-che3-e-commerce.git"
+  },
+  "author": "jasmine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbjasmine786/https-github.com-che3-e-commerce/issues"
+  },
+  "homepage": "https://github.com/bbjasmine786/https-github.com-che3-e-commerce#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "mocha": "^8.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "rewire": "^5.0.0",
+    "sinon": "^9.2.1",
+    "supertest": "^6.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.3.1",
+    "debug-mode": "^2.0.2",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  }
+}
